@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Carta para ti... 💌</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-glow"></div>
+  <div class="hearts-layer" id="heartsLayer"></div>
+
+  <main class="wrap">
+    <header class="top">
+      <div class="badge">💘 Mi Niña Hermosa </div>
+      <h1 class="title">Para <span id="toName">ti</span></h1>
+      <p class="subtitle">Toca el sobre para abrir tu carta mi niña hermosa</p>
+    </header>
+
+    <section class="card">
+      <div class="envelope" id="envelope" tabindex="0">
+        <div class="env-shadow"></div>
+
+        <div class="env-body">
+          <div class="env-back"></div>
+          <div class="env-front"></div>
+
+          <div class="env-flap">
+            <span class="seal">❤</span>
+          </div>
+
+          <article class="letter">
+            <div class="letter-top">
+              <div class="stamp">💌</div>
+              <div class="mini">
+                <span class="mini-label">Para:</span>
+                <span id="miniTo">ti</span>
+              </div>
+            </div>
+
+            <h2 id="letterTitle">Una carta para ti</h2>
+            <p class="typed" id="typedText"></p>
+
+            <div class="signature">
+              <span class="sig-label">Con amor,</span>
+              <span class="sig-name" id="fromName">I.M.A.A</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="toast" id="toast"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
